@@ -5,6 +5,11 @@ public class NewCalculator {
         this.lastResult = 0;
     }
 
+    public double Multiply(double x, double y){
+	this.lastResult = x * y;
+	return this.lastResult;
+    }
+
     public double getLastResult(){
         return this.lastResult;
     }

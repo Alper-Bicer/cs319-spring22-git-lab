@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 	NewCalculator calculator = new NewCalculator();
+	// Try Multiplication
+	calculator.Multiply(10, 30);
+	System.out.println(calculator.getLastResult());
 	// Try division
 	calculator.Divide(100, 12);
 	System.out.println(calculator.getLastResult());
